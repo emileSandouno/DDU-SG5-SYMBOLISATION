@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Demande de Nouveaux Symboles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('https://raw.githubusercontent.com/cnigfr/DDU-SG5-SYMBOLISATION/main/assets/background.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1, p {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            display: block;
+        }
+        button {
+            display: block;
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Formulaire de Demande de Nouveaux Symboles</h1>
+    <p>
+        Ce formulaire permet de proposer de nouveaux symboles pour les documents d'urbanisme du groupe SG5.
+        Une fois soumis, la demande sera automatiquement redirigée vers la page GitHub des propositions.
+    </p>
+
+    <form id="formDemande">
+        <label for="titre">Titre de la Demande :</label>
+        <input type="text" id="titre" name="titre" required>
+
+        <label for="description">Description :</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="caracteristiques">Caractéristiques Techniques :</label>
+        <textarea id="caracteristiques" name="caracteristiques" required></textarea>
+
+        <label for="validation">Validation et Suivi :</label>
+        <textarea id="validation" name="validation" required></textarea>
+
+        <button type="button" id="confirmBtn">Confirmer et Envoyer</button>
+    </form>
+</div>
+
+<script>
+    document.getElementById("confirmBtn").addEventListener("click", function() {
+        if (confirm("Êtes-vous sûr de vouloir soumettre cette demande ?")) {
+            let titre = encodeURIComponent(document.getElementById("titre").value);
+            let description = encodeURIComponent(document.getElementById("description").value);
+            let caracteristiques = encodeURIComponent(document.getElementById("caracteristiques").value);
+            let validation = encodeURIComponent(document.getElementById("validation").value);
+
+            let issueBody = `
+### 📌 Titre de la Demande :
+${titre}
+
+### 📝 Description :
+${description}
+
+### 🎨 Caractéristiques Techniques :
+${caracteristiques}
+
+### ✅ Validation et Suivi :
+${validation}
+            `;
+
+            let githubIssueURL = `https://github.com/cnigfr/DDU-SG5-SYMBOLISATION/issues/new?template=proposition-de-symbole.md&title=${titre}&body=${encodeURIComponent(issueBody)}`;
+
+            window.location.href = githubIssueURL;
+        }
+    });
+</script>
+
+</body>
+</html>
