@@ -5,9 +5,9 @@ Créé pour faciliter l'élaboration et l'échange de dictionnaires de symboles 
 
 Retrouvez notamment ici :
 - ## 📄 GUIDE DE DEMANDE DE SYMBOLES
-Vous pouvez consulter le GUIDE DE DEMANDE DE SYMBOLE en téléchargeant le fichier PDF :
+Vous pouvez consulter le GUIDE DE DEMANDE DE SYMBOLE en téléchargeant le fichier PDF ci-dessous :
 
-[📥 Télécharger le document](./Guide_symbologie.pdf)
+[📥 Guide symbologie](./Guide symbologie.pdf)
 
 - les préconisations de symbolisation produites par le SG5 pour harmoniser la représentation cartographique des données standardisées :
     - [préconisations](/PLU/preconisations.md) associées au standard PLU,
