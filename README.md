@@ -7,7 +7,7 @@ Retrouvez notamment ici :
 - ## 📄 GUIDE DE DEMANDE DE SYMBOLES
 Vous pouvez consulter le GUIDE DE DEMANDE DE SYMBOLE en téléchargeant le fichier PDF ci-dessous :
 
-[📥 Guide symbologie](./Guide symbologie.pdf)
+[📥 Guide symbologie](./Guide_symbologie.pdf)
 
 - les préconisations de symbolisation produites par le SG5 pour harmoniser la représentation cartographique des données standardisées :
     - [préconisations](/PLU/preconisations.md) associées au standard PLU,
