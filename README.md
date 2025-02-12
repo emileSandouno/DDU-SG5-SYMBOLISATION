@@ -4,6 +4,11 @@ Dépôt du sous-groupe SG5 *Symbolisation pour les PLU et les PSMV* du GT CNIG D
 Créé pour faciliter l'élaboration et l'échange de dictionnaires de symboles pour les documents d'urbanisme.
 
 Retrouvez notamment ici :
+- ## 📄 GUIDE DE DEMANDE DE SYMBOLES
+Vous pouvez consulter le GUIDE DE DEMANDE DE SYMBOLE en téléchargeant le fichier PDF :
+
+[📥 Télécharger le document](./Guide_symbologie.pdf)
+
 - les préconisations de symbolisation produites par le SG5 pour harmoniser la représentation cartographique des données standardisées :
     - [préconisations](/PLU/preconisations.md) associées au standard PLU,
     - [préconisations](/PSMV/preconisations.md) associées au standard PSMV ;
