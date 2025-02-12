@@ -1,5 +1,5 @@
 - ## 📄 GUIDE DE DEMANDE DE SYMBOLES
-Vous pouvez consulter le GUIDE DE DEMANDE DE SYMBOLE en téléchargeant le fichier PDF ci-dessous :
+Vous pouvez consulter le GUIDE DE DEMANDE DE SYMBOLE en ouvrant le fichier PDF ci-dessous :
 
 - [📥 Guide symbologie](./Guide_symbologie.pdf)
 
