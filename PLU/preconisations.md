@@ -680,6 +680,65 @@ Symbole simple
 
 ---
 
+<!-- AJOUTER ICI LES NOUVEAUX SYMBOLES -->
+
+### Révision du symbole INFO 30-00 - Périmètre PUP
+
+*Point précédemment évoqué dans l'issue #62. Le SG5 du 9 juin 2022 a confirmé sa volonté de modifier ce symbole, dont le figuré actuel s'apparente à un aplat (masquant le fond de plan et toutes les données qu'il pourrait recouvrir), tout en jugeant nécessaire de disposer de davantage de solutions alternatives.*
+
+
+
+**Objet :** périmètres de projet urbain partenarial (PUP) évoqués à l'article [L332-11-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037666313/) du code de l'urbanisme.
+
+
+
+**Symbole d'origine** : hachures rouges très rapprochées.
+
+
+
+![30-00 original](https://user-images.githubusercontent.com/55992003/141954437-85cc7b27-c2f7-4eb8-9bff-2ba9b4766466.png)
+
+
+
+```
+
+Motif de lignes
+
+• espacement : 1.3 pt
+
+• rotation : 45°
+
+
+
+    Ligne simple
+
+    • couleur : RVB 210,4,4 (#d20404), transparence 40%
+
+    • largeur de trait : 0.8 pt
+
+    • style de trait : ligne continue
+
+
+
+Ligne simple
+
+• couleur : RVB 210,4,4 (#d20404)
+
+• largeur de trait : 0.8 pt
+
+• style de trait : ligne continue
+
+```
+
+🔗 [Voir sur GitHub](https://github.com/cnigfr/DDU-SG5-SYMBOLISATION/issues/77)
+
+---
+
+
+[↑ haut de page](#préconisations-de-symbologie)
+
+---
+
 ### Prescription 05-05
 
 **Emplacement réservé logement social / mixité sociale**
